@@ -19,5 +19,3 @@ function project_name_from_script_name
 }
 
 PROJECT_NAME="${PROJECT_NAME:-`project_name_from_script_name`}"
-
-echo "project name is ${PROJECT_NAME}"
