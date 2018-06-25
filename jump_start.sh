@@ -9,7 +9,7 @@
 set -e
 set -o noclobber
 
-JUMP_START_DIR="${JUMP_START_DIR:-"~/projects"}"
+JUMP_START_DIR=${JUMP_START_DIR:-~/projects}
 WDIR=${JUMP_START_DIR}/${PROJECT_NAME}
 
 # Copy needed components here

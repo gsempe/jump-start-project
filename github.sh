@@ -6,7 +6,7 @@
 # GITHUB_DIR can be set to override the destination folder
 # REPOSITORY has to be set. For instance companname/reponame
 
-GITHUB_DIR="${GITHUB_DIR:-"${WDIR}/src"}"
+GITHUB_DIR=${GITHUB_DIR:-${WDIR}/src}
 SHOULD_SSH_CLONE=true
 
 if [ ! -d "$GITHUB_DIR" ]; then
