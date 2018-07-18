@@ -11,7 +11,7 @@ ASDF_VERSION="v0.5.0"
 if [ ! -d "${ASDF_DIR}" ]; then
         step "Installing ASDF into ${ASDF_DIR}..."
         git clone https://github.com/asdf-vm/asdf.git ${ASDF_DIR} --branch ${ASDF_VERSION}
-        cd ${ASDF_VERSION}
+        cd ${ASDF_DIR}
 else
         step "Skipping asdf-vm/asdf clone, folder ${ASDF_DIR} exists..."
         cd ${ASDF_DIR}
